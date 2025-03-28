@@ -1,0 +1,40 @@
+package capstone.it.demo.promozioni;
+
+import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+
+
+@RestController
+@RequestMapping("/api/admin/promozioni")
+@RequiredArgsConstructor
+public class PromozioniAdminController {
+
+    private final PromozioniService promozioniService;
+
+    @DeleteMapping("/delete/{id}")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ResponseEntity<String> deletePromozioni(@PathVariable Long id) {
+        try {
+            promozioniService.deletePromozioni(id);
+            return ResponseEntity.ok("Promozione eliminata con successo");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Errore nell'eliminare la promozione: " + e.getMessage());
+        }
+    }
+
+   
+
+    @PostMapping("/add")
+    @PreAuthorize("hasRole('ROLE_ADMIN')")
+    public ResponseEntity<String> addPromozione(@RequestBody Promozioni promozione) {
+        try {
+            promozioniService.createPromozioni(promozione);
+            return ResponseEntity.ok("Promozione aggiunta con successo");
+        } catch (Exception e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Errore nell'aggiungere la promozione: " + e.getMessage());
+        }
+    }
+}

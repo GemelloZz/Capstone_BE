@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="14c30959-1e4c-46fe-bbdb-cf8ac239608b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AppUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AppUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AppUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/AuthRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/CustomErrorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/CustomUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/ExceptionHandlerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/JwtRequestFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/JwtTokenMissingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/OpenApiConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/RegisterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/auth/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/clienti/Clienti.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/clienti/ClientiRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/clienti/ClientiRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/clienti/ClientiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/sim/Sim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/sim/SimRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/sim/SimResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/telefoni/Telefoni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/telefoni/TelefoniRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FlySim_BE/src/main/java/capstone/it/demo/telefoni/TelefoniResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/u5-w3-d5-main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/U5w3d5Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/controllers/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/controllers/EventiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/controllers/PrenotazioniController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/controllers/UtentiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/entities/Eventi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/entities/Prenotazioni.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/entities/Utenti.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/enums/RuoliUtente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/exceptions/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/exceptions/ExceptionsHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/exceptions/NotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/exceptions/UnauthorizedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/ErrorsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/NewEventiDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/NewEventiResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/NewUtentiDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/NewUtentiResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/PrenotazioniDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/UtentiLoginDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/payloads/UtentiLoginResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/repositories/EventiRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/repositories/PrenotazioniRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/repositories/UtentiRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/security/JWTAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/security/JWTTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/servicies/AuthService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/servicies/EventiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/servicies/PrenotazioniService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/java/epicode.it/u5w3d5/servicies/UtentiService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../u5w3d5/src/test/java/epicode.it/u5w3d5/U5w3d5ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2tf8PyCL0QBqsl4YM20CYtZiRDa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="14c30959-1e4c-46fe-bbdb-cf8ac239608b" name="Changes" comment="" />
+      <created>1740731747285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740731747285</updated>
+    </task>
+    <servers />
+  </component>
+</project>

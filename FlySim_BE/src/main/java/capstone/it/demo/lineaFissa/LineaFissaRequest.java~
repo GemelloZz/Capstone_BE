@@ -1,0 +1,4 @@
+package capstone.it.demo.lineaFissa;
+
+public class LineaFissaRequest {
+}
